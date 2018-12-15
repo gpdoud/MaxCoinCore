@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace MaxCoin {
+namespace Maxtrain.MaxCoin {
     public class Startup {
         public Startup(IConfiguration configuration) {
             Configuration = configuration;
@@ -21,6 +21,11 @@ namespace MaxCoin {
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddCors(option => {
+                option.AddPolicy("AllowAllAccess",
+                    builder => builder.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin()
+                );
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

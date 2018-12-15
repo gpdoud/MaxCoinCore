@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxCoin", "MaxCoin\MaxCoin.csproj", "{986F1C96-249B-4630-9E6E-CA4EB721FA71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxCoinLib", "MaxCoinLib\MaxCoinLib.csproj", "{B84F3BAA-D01D-46E6-99BA-19ACCFBF8E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxCoinLibTest", "MaxCoinLibTest\MaxCoinLibTest.csproj", "{E13A7C40-AC6C-40ED-B623-CFF8992ED82C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{986F1C96-249B-4630-9E6E-CA4EB721FA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986F1C96-249B-4630-9E6E-CA4EB721FA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986F1C96-249B-4630-9E6E-CA4EB721FA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84F3BAA-D01D-46E6-99BA-19ACCFBF8E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84F3BAA-D01D-46E6-99BA-19ACCFBF8E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84F3BAA-D01D-46E6-99BA-19ACCFBF8E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84F3BAA-D01D-46E6-99BA-19ACCFBF8E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13A7C40-AC6C-40ED-B623-CFF8992ED82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13A7C40-AC6C-40ED-B623-CFF8992ED82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13A7C40-AC6C-40ED-B623-CFF8992ED82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13A7C40-AC6C-40ED-B623-CFF8992ED82C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
