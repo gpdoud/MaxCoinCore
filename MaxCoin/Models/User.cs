@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Maxtrain.MaxCoin.Models {
-    public class Transaction {
+
+    public class User {
 
         public int Id { get; set; }
-        public string Json { get; set; }
+        public string Name { get; set; }
+        public string Password { get; set; }
+        public string Key { get; set; }
 
-        public Transaction() {
-        }
+        public User() { }
     }
 }

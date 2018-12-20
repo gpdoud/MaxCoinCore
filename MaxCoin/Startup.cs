@@ -30,7 +30,7 @@ namespace Maxtrain.MaxCoin {
 
             services.AddCors(option => {
                 option.AddPolicy("AllowAllAccess",
-                    builder => builder.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin()
+                    builder => builder.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod()
                 );
             });
         }
